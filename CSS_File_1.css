@@ -1,0 +1,88 @@
+Body{
+background-color:rgba(100,200,50,.3);
+
+text-align: center;
+margin: auto;
+}
+#NVN1{
+display:flex;
+width:100%;
+Height:50px;
+background-color: rgba(50,255,255,.5);
+}
+table{
+}
+.NV{
+display:flex;
+box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+padding: 5px 10px;
+}
+
+
+.A1{
+text-align: left;
+width:400px;
+margin: auto;
+display:none;
+background-color: rgba(50,200,100,.9);
+background-color: yellow;
+overflow: hidden;
+color: rgba(100,100,100,.8);
+font-size: 12px;
+font-weight: bold;
+padding: 5px 5px;
+box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+border: none;
+outline: none;
+}
+
+.A2{
+Color: rgba(50,255,100,.5);
+background-color: Orange;
+font-size: 20px;
+font-weight: bold;
+}
+
+.A3{
+background-color: inherit;
+width:300px;
+margin: auto;
+display:block;
+background-color: rgba(255,255,0,.9);
+color:Black;
+font-size: 10px;
+font-weight: bold;
+border-radius: 10px;
+border: 2px solid DarkGray;
+border-style: inset;
+padding: 5px 16px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.A4{
+background-color: rgba(0,100,100,.9);
+color:Black;
+font-size: 10px;
+}
+.POPT{
+background-color: rgba(0,100,100,.9);
+color:Black;
+font-size: 10px;
+}
+.A5, .A6{
+margin: auto;
+Width:80%;
+display:Block;
+background-color: rgba(0,100,100,.9);
+color:Black;
+font-size: 10px;
+font-weight: bold;
+border-radius: 10px;
+border: 2px solid DarkGray;
+border-style: inset;
+padding: 5px 16px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.A7, .A10{
+Width:100px;
+display:none;
+}
