@@ -7,8 +7,9 @@ margin: auto;
 #NVN1{
 display:flex;
 width:100%;
-Height:50px;
+Height:60px;
 background-color: rgba(0,155,255,.9);
+color:yellow;
 }
 table{
 }
