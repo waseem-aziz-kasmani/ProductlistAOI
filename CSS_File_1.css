@@ -1,0 +1,162 @@
+Body{
+background-color:rgba(100,200,50,.3);
+
+text-align: center;
+margin: auto;
+
+}
+#NVA1{
+/*Required Password to login*/
+display:none;
+margin: auto;
+width:70%;
+Height:70px;
+box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+}
+
+#NVA{
+/*CLICK FOR LOGIN PASSWORD*/
+margin: auto;
+display:Block;
+width:80%;
+Height:60px;
+font-weight: 900;
+font-size:20px;
+Padding:10px;
+text-shadow: 2px 2px rgba(1,0,0,0.2);
+background-color: inherit;
+box-shadow: 0px 8px 16px 0px rgba(100,0,0,0.9);
+}
+
+#NVA:hover{background-color:  rgba(100,0,0,0.5);}
+
+#NVB{
+   /*TAG OF ITEM LIST*/
+   margin: auto;
+   display:none;
+   text-align: center;
+   text-decoration-thickness: 10px;
+   text-decoration-style: double;
+   font-size: 20px;
+   color:Blue;
+   width:200px;
+   Height:40px;
+   background-color: rgba(1,0,0,0.1);
+   box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+   padding: 15px 15px;
+  
+}
+
+.DropDown1{
+/*ITEM CATAGORY DROPDOWN CONTAINER*/
+margin: auto;
+display:none;
+width:200px;
+Height:300px;
+
+}
+.DP1:hover {
+
+color:white;
+background-color: blue;
+}
+table{
+}
+.NV{
+/*ITEMS DROP DOWN LIST*/
+margin: auto;
+display:block;
+width:200px;
+Height:20px;
+color:blue;
+text-align: center;
+text-shadow: 2px 2px rgba(1,0,0,0.2);
+box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+padding: 15px 10px;
+}
+.NV:hover{
+
+color:white;
+background-color: rgba(100,0,0,0.5);
+}
+
+.A1{
+/*MAIN DV DATA OF ITEM CATAGORY*/
+text-align: left;
+width:400px;
+margin: auto;
+display:none;
+background-color: inherit;
+
+overflow: hidden;
+color: rgba(100,100,100,.8);
+font-size: 12px;
+font-weight: bold;
+text-shadow: 2px 2px rgba(1,0,0,0.2);
+padding: 5px 5px;
+box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+border: none;
+outline: none;
+}
+
+.A2{
+/*CATAGORY LABEL*/
+margin: auto;
+Color: rgba(100,100,20,1);
+background-color: inherit;
+font-weight: bold;
+text-align:center;
+text-shadow: 2px 2px rgba(1,0,0,0.2);
+font-size: 20px;
+box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+padding: 5px 5px;
+
+}
+
+.A3{
+/*ITEM NAME GROUP*/
+background-color: inherit;
+width:350px;
+margin: auto;
+display:block;
+background-color: inherit);
+color:Black;
+font-size: 10px;
+font-weight: bold;
+border-radius: 10px;
+border: 1px solid white;
+border-style: inset;
+padding: 5px 16px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.A4{
+/*EXTRA ITEM GROUP*/
+background-color: inherit;
+color:Black;
+font-size: 20px;
+}
+.POPT{
+background-color: inherit;
+color:Black;
+font-size: 10px;
+}
+.A5, .A6{
+margin: auto;
+Width:80%;
+display:Block;
+background-color: inherit;
+color:Black;
+font-size: 10px;
+border: 2px solid lightGray;
+border-style: inset;
+padding: 5px 16px;
+
+}
+.A7, .A10{
+Width:100px;
+display:none;
+}
+.A13{
+Width:100px;
+
+}
