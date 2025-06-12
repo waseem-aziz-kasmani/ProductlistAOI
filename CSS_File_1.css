@@ -102,7 +102,7 @@ outline: none;
 .A2{
 /*CATAGORY LABEL*/
 margin: auto;
-Color: rgba(100,100,20,1);
+Color: Brown;
 background-color: inherit;
 font-weight: bold;
 text-align:center;
@@ -119,44 +119,58 @@ background-color: inherit;
 width:350px;
 margin: auto;
 display:block;
-background-color: inherit);
+background-color: inherit;
 color:Black;
 font-size: 10px;
 font-weight: bold;
-border-radius: 10px;
+border-radius: 1px;
 border: 1px solid white;
-border-style: inset;
 padding: 5px 16px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .A4{
-/*EXTRA ITEM GROUP*/
+/*ITEM NAME + PRICE*/
 background-color: inherit;
-color:Black;
+color:DarkBlue;
 font-size: 20px;
 }
 .POPT{
+/*DIV PACKING COST, ITEM COST, OIL PRICE*/
+Width:100%;
 background-color: inherit;
 color:Black;
 font-size: 10px;
 }
-.A5, .A6{
+.A5, .A6, .A6A{
 margin: auto;
-Width:80%;
+Width:100px;
 display:Block;
 background-color: inherit;
+text-align:center;
 color:Black;
 font-size: 10px;
-border: 2px solid lightGray;
-border-style: inset;
-padding: 5px 16px;
+border: 1px solid lightGray;
+padding: 5px 5px;
 
 }
+
+table,td,th{
+margin: auto;
+border: 1px solid lightGray;
+border-collapse: collapse;
+}
+
+tr:nth-child(even){background-color: rgba(100,200,50,.5);}
+tr:hover {background-color: #ddd;}
+th{height: 30px;}
 .A7, .A10{
-Width:100px;
+/*TABLE1  TABLE2*/
+margin: auto;
+Width:300px;
 display:none;
 }
-.A13{
-Width:100px;
+.A9, .A12, .A13{ text-align:center; }
+.A9, .A12{Width:80px;height:20px;}
+.A8, .A11{Width:200px; font-size: 10px;}/*TABLE1 + TABLE2*/
 
-}
+.A13{Width:80px;}
