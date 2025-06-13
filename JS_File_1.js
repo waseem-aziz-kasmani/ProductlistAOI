@@ -8,6 +8,7 @@ function ShowPW(){
 }
 function login(){
 let x = document.getElementById("PW1").value;
+localStorage.PWD = x;  
  if (x === "111aoi222"){
   document.getElementById("NVB").style.display = "block";
   document.getElementById("NVA").style.display = "none";
