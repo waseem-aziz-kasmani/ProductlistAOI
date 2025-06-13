@@ -1,5 +1,10 @@
 function ShowPW(){
    var x = document.getElementById("NVA1");
+  if (localStorage.PWD) {
+  document.getElementById("NVB").style.display = "block";
+  document.getElementById("NVA").style.display = "none";
+  document.getElementById("NVA1").style.display = "none";;
+}
   if (x.style.display === "none") {
      x.style.display = "block";
   }  else {
