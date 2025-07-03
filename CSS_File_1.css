@@ -10,7 +10,7 @@ margin: auto;
 display:none;
 margin: auto;
 width:70%;
-Height:70px;
+Height:80px;
 box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
 }
 
@@ -132,7 +132,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 /*ITEM NAME + PRICE*/
 background-color: inherit;
 color:DarkBlue;
-font-size: 15px;
+font-size: 18px;
 }
 .POPT{
 /*DIV PACKING COST, ITEM COST, OIL PRICE*/
