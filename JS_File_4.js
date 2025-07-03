@@ -1,10 +1,13 @@
-function RememberPW() {
-  let PS =  document.getElementById("PW1").value;
-  
-  if (localStorage.PS1) {
-    localStorage.clickcount = Number(localStorage.clickcount)+1;
-  } else {
-    localStorage.clickcount = 1;
-  }
-document.getElementById("demo").innerHTML = localStorage.clickcount;
+function login_1(){
+let y = document.getElementById("PW1").value;
+let x = document.getElementById("PW2");
+const z = localStorage.getItem("Var1");
+alert("PSS WD : " + z); 
+if (x.checked == true){
+
+   localStorage.setItem("Var1",y);
+   
+} else {
+  alert("else");
+}
 }
