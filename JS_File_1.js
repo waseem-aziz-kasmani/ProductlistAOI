@@ -1,11 +1,8 @@
 function ShowPW(){
    var x = document.getElementById("NVA1");
-  if (localStorage.PWD) {
-  document.getElementById("NVB").style.display = "block";
-  document.getElementById("NVA").style.display = "none";
-  document.getElementById("NVA1").style.display = "none";;
-}
   if (x.style.display === "none") {
+     const z = localStorage.getItem("Var1");
+     document.getElementById("PW1").value = z;
      x.style.display = "block";
   }  else {
      x.style.display = "none";
@@ -13,7 +10,8 @@ function ShowPW(){
 }
 function login(){
 let x = document.getElementById("PW1").value;
-localStorage.PWD = x;  
+const z = localStorage.getItem("Var1");
+
  if (x === "111aoi222"){
   document.getElementById("NVB").style.display = "block";
   document.getElementById("NVA").style.display = "none";
@@ -21,6 +19,7 @@ localStorage.PWD = x;
 } else {
   alert("incorrect Password");
 }
+
 }
 function BTT(){  
     var x = document.getElementById("NVN1");
