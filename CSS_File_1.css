@@ -5,13 +5,9 @@ text-align: center;
 margin: auto;
 
 }
-#NVA1{
-/*Required Password to login*/
-display:none;
+Footer{
 margin: auto;
-width:70%;
-Height:80px;
-box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+Height:60px;
 }
 
 #NVA{
@@ -27,7 +23,17 @@ text-shadow: 2px 2px rgba(1,0,0,0.2);
 background-color: inherit;
 box-shadow: 0px 8px 16px 0px rgba(100,0,0,0.9);
 }
-
+#NVA1{
+/*Required Password to login*/
+display:none;
+margin: auto;
+width:70%;
+Height:120px;
+box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
+}
+#PW3{
+width:70px;
+}
 #NVA:hover{background-color:  rgba(100,0,0,0.5);}
 
 #NVB{
@@ -69,6 +75,8 @@ display:block;
 width:200px;
 Height:20px;
 color:blue;
+transition: width 2s;
+transition-delay: 2s;
 text-align: center;
 text-shadow: 2px 2px rgba(1,0,0,0.2);
 box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.9);
@@ -77,6 +85,8 @@ padding: 15px 10px;
 .NV:hover{
 
 color:white;
+width:300px;
+
 background-color: rgba(100,0,0,0.5);
 }
 
@@ -86,7 +96,7 @@ text-align: left;
 width:400px;
 margin: auto;
 display:none;
-background-color: inherit;
+background-color: rgba(255,220,255,.9);
 
 overflow: hidden;
 color: rgba(100,100,100,.8);
